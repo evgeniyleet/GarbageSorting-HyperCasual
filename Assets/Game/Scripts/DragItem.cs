@@ -36,6 +36,7 @@ namespace GarbageSorting
         {
             _rigidbody.isKinematic = true;
             isDraggable = true;
+            transform.position += Vector3.up * 1.5f;
         }
 
         public void OnPointerUp(PointerEventData eventData)

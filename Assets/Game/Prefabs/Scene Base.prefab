@@ -64,7 +64,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764013927803814093}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6418386, y: -7.091153, z: 13.13228}
+  m_LocalPosition: {x: 0.6418386, y: -7.091153, z: 6.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -85,7 +85,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: 5869353526175437426, guid: 6cbf3090fa60c1f4bb956b869483f772, type: 3}
   _count: 3
-  _range: {x: 3, y: 0, z: 12}
+  _range: {x: 3, y: 0, z: 4}
 --- !u!114 &6529105442937989343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: 1567969720648072633, guid: 31dd0cf158588d24e9a7a506145a795e, type: 3}
   _count: 3
-  _range: {x: 3, y: 0, z: 12}
+  _range: {x: 3, y: 0, z: 4}
 --- !u!114 &1710338452001873743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: 6718205231853038539, guid: ea3d4a96140e6c94a865c50b3e95e63f, type: 3}
   _count: 3
-  _range: {x: 3, y: 0, z: 12}
+  _range: {x: 3, y: 0, z: 4}
 --- !u!114 &2284445771104148970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefab: {fileID: 6718205231853038539, guid: 61a3106fa167e0d4b8965294aa1e8aec, type: 3}
   _count: 3
-  _range: {x: 3, y: 0, z: 12}
+  _range: {x: 3, y: 0, z: 4}
 --- !u!1 &6527350811147526949
 GameObject:
   m_ObjectHideFlags: 0
