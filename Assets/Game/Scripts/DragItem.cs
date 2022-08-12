@@ -36,7 +36,7 @@ namespace GarbageSorting
         {
             _rigidbody.isKinematic = true;
             isDraggable = true;
-            transform.position += Vector3.up * 1.5f;
+            transform.position += Vector3.up * 1.5f; // когда объект меняет ротейт в ходе передвижения, меняется и вектор перемещения поднятии, надо чет другое
         }
 
         public void OnPointerUp(PointerEventData eventData)
