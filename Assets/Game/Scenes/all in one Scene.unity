@@ -844,6 +844,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4029287282176729279, guid: fa35069ed30118e45b943feef805cd26,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029287282176729279, guid: fa35069ed30118e45b943feef805cd26,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029287282176729279, guid: fa35069ed30118e45b943feef805cd26,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029287282176729279, guid: fa35069ed30118e45b943feef805cd26,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029287282176729279, guid: fa35069ed30118e45b943feef805cd26,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029287282176729279, guid: fa35069ed30118e45b943feef805cd26,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1920
+      objectReference: {fileID: 0}
     - target: {fileID: 4029287282496906811, guid: fa35069ed30118e45b943feef805cd26,
         type: 3}
       propertyPath: m_Name
