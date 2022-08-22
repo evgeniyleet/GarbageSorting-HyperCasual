@@ -15,4 +15,5 @@ namespace GarbageSorting
             other.transform.position = Vector3.MoveTowards(other.transform.position, endPoint.position, speed * Time.deltaTime);
         }
     }
+
 }

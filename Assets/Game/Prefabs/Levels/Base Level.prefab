@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3269478909432637391}
   - component: {fileID: -5459232426491143796}
   m_Layer: 0
-  m_Name: Level 4
+  m_Name: Base Level
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -453,30 +453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scene Base
       objectReference: {fileID: 0}
-    - target: {fileID: 1710338452001873743, guid: 2668d568e1c156242ad7d1a3605453a3,
-        type: 3}
-      propertyPath: _count
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1885253823131594557, guid: 2668d568e1c156242ad7d1a3605453a3,
-        type: 3}
-      propertyPath: _count
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2284445771104148970, guid: 2668d568e1c156242ad7d1a3605453a3,
-        type: 3}
-      propertyPath: _count
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 6527350811147526949, guid: 2668d568e1c156242ad7d1a3605453a3,
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6529105442937989343, guid: 2668d568e1c156242ad7d1a3605453a3,
-        type: 3}
-      propertyPath: _count
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7348846781138525918, guid: 2668d568e1c156242ad7d1a3605453a3,
         type: 3}
@@ -541,3 +521,30 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7212986201183082594}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &739754501871952400 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7952669159603386994, guid: 2668d568e1c156242ad7d1a3605453a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7212986201183082594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8962908632238348463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1764013927803814093, guid: 2668d568e1c156242ad7d1a3605453a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7212986201183082594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5731382054138398305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8962908632238348463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42809d32ff385c84facc2c65a373046c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  t: 0.1
+  _endPoint: {fileID: 739754501871952400}

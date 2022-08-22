@@ -85,7 +85,6 @@ MonoBehaviour:
   nextLevel: {fileID: 9193679299883711168, guid: ff5dc0169f35c4548aa6f3053d86270f,
     type: 3}
   currentLevel: {fileID: 5901941189855916026}
-  uiCamera: {fileID: 0}
 --- !u!1001 &5901941190111741177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -198,6 +197,11 @@ PrefabInstance:
     - target: {fileID: 2284445771104148970, guid: 2668d568e1c156242ad7d1a3605453a3,
         type: 3}
       propertyPath: _count
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527350811147526949, guid: 2668d568e1c156242ad7d1a3605453a3,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6529105442937989343, guid: 2668d568e1c156242ad7d1a3605453a3,
