@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: -8284634114349342640}
   - component: {fileID: 1532984398673256179}
   - component: {fileID: 1936332166875148737}
+  - component: {fileID: 9076365199609024442}
+  - component: {fileID: 2853505718993998886}
   m_Layer: 0
   m_Name: Draggable Item
   m_TagString: Untagged
@@ -95,7 +97,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.01
-  t: 0.003
   _endPoint: {fileID: 40396076161063875, guid: f46e6fd8f740c0f4abcdc59dcc665db4, type: 3}
 --- !u!114 &-8284634114349342640
 MonoBehaviour:
@@ -122,8 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c02819d2899d3be41b916e7c2e1edd4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _circleClickFxPrefab: {fileID: 4745410587184630009, guid: b4ca522825e1d1848a2dce8660fcff55,
-    type: 3}
+  _vfxPoolProvider: {fileID: 2853505718993998886}
 --- !u!114 &1936332166875148737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,8 +136,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac814ff37e22979468de5068adc075a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hideFxPrefab: {fileID: 735208539498528464, guid: 101cd2ce8c548534ab63df19914fb32c,
-    type: 3}
+  _vfxPoolProvider: {fileID: 9076365199609024442}
+--- !u!114 &9076365199609024442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314238057923379740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d33ce9027223034eb4c326389448519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _vfxPool: {fileID: 11400000, guid: 7f867efb240d9ea4487a59f2b1ad4e93, type: 2}
+--- !u!114 &2853505718993998886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314238057923379740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d33ce9027223034eb4c326389448519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _vfxPool: {fileID: 11400000, guid: c80276b97e26fa84b8ded6e1f11e2a90, type: 2}
 --- !u!1 &4051662124352348943
 GameObject:
   m_ObjectHideFlags: 0
