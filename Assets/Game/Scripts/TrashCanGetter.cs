@@ -43,7 +43,8 @@ namespace GarbageSorting
         {
             if (_item.Type == _type)
             {
-                Destroy(_item.gameObject);
+                //Destroy(_item.gameObject);
+                _item.OnHideRequest.Invoke();
                 count++;
 
                 onCountChanged.Invoke(this);

@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Events;
 
 namespace GarbageSorting
 {
     public class DragItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
     {
         //[SerializeField] private float upForce = 50f;
+        public UnityEvent OnHideRequest;
         private Rigidbody _rigidbody;
         public bool isDraggable { get; private set; }
         [SerializeField] private TrashType _type;
@@ -36,7 +38,7 @@ namespace GarbageSorting
         {
             _rigidbody.isKinematic = true;
             isDraggable = true;
-            transform.position += Vector3.up * 1.5f;
+            transform.position += Vector3.up * 1.5f; // когда объект меняет ротейт в ходе передвижения, меняется и вектор перемещения поднятии, надо чет другое
         }
 
         public void OnPointerUp(PointerEventData eventData)

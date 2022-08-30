@@ -93,7 +93,6 @@ MonoBehaviour:
   nextLevel: {fileID: 4845318627751992481, guid: f54826e1a0bc6364d9f6bd5707847dac,
     type: 3}
   currentLevel: {fileID: 7402556123393546961}
-  uiCamera: {fileID: 0}
 --- !u!1001 &4080870658759948672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -468,6 +467,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _count
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527350811147526949, guid: 2668d568e1c156242ad7d1a3605453a3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6529105442937989343, guid: 2668d568e1c156242ad7d1a3605453a3,
         type: 3}
