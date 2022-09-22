@@ -60,6 +60,7 @@ namespace GarbageSorting
             {
                 Debug.Log("win");
                 onFull.Invoke();
+
             }
         }
     }

@@ -89,7 +89,6 @@ MonoBehaviour:
   nextLevel: {fileID: 7402556123393546961, guid: d544982389d65fd449149dd809f18f8c,
     type: 3}
   currentLevel: {fileID: 9193679299883711168}
-  uiCamera: {fileID: 0}
 --- !u!1001 &1000902582284542947
 PrefabInstance:
   m_ObjectHideFlags: 0

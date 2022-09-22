@@ -7,7 +7,6 @@ namespace GarbageSorting
 
         [SerializeField] private GameObject nextLevel;
         [SerializeField] private GameObject currentLevel;
-
         public void initLevel()
         {
             Debug.Log("start level");

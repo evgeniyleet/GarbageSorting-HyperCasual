@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4845318627751992482}
   - component: {fileID: 4845318627751992483}
-  - component: {fileID: -7384824711268178988}
+  - component: {fileID: 8591600492022211862}
   m_Layer: 0
   m_Name: Level 1
   m_TagString: Untagged
@@ -54,7 +54,7 @@ MonoBehaviour:
   onFull:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -7384824711268178988}
+      - m_Target: {fileID: 8591600492022211862}
         m_TargetAssemblyTypeName: GarbageSorting.LevelChanger, Assembly-CSharp
         m_MethodName: startNextLevel
         m_Mode: 1
@@ -66,7 +66,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &-7384824711268178988
+--- !u!114 &8591600492022211862
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,6 +173,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8943106512241674164, guid: 2668d568e1c156242ad7d1a3605453a3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5ef08f0efa64fa340a0d2d37457e79ac, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2668d568e1c156242ad7d1a3605453a3, type: 3}
 --- !u!4 &6547694363300409663 stripped
@@ -188,6 +193,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4845318627751992482}
     m_Modifications:
+    - target: {fileID: 3823839782791504864, guid: 1d7619a9f4e62194e84e605b72148ba1,
+        type: 3}
+      propertyPath: onCountChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823839782791504864, guid: 1d7619a9f4e62194e84e605b72148ba1,
+        type: 3}
+      propertyPath: onCountChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3823839782791504864, guid: 1d7619a9f4e62194e84e605b72148ba1,
+        type: 3}
+      propertyPath: onCountChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11500000, guid: 73a908ccecd3f5e4b8f5ea134e0f96d1,
+        type: 3}
+    - target: {fileID: 3823839782791504864, guid: 1d7619a9f4e62194e84e605b72148ba1,
+        type: 3}
+      propertyPath: onCountChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6807378611734010244, guid: 1d7619a9f4e62194e84e605b72148ba1,
         type: 3}
       propertyPath: m_RootOrder
