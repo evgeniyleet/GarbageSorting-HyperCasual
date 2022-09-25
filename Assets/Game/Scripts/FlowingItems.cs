@@ -5,9 +5,10 @@ namespace GarbageSorting
 {
     public class FlowingItems : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
+        [SerializeField] private Transform _endPoint;
         [SerializeField] private float speed;
         public bool isDraggable { get; private set; }
-        [SerializeField] private Transform _endPoint;
+
         private void FixedUpdate()
         {
             if (!isDraggable)

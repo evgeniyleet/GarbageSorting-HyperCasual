@@ -96,8 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42809d32ff385c84facc2c65a373046c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _endPoint: {fileID: 8718836405066648367, guid: a103d8fa27deee34fb0c792db26869a9,
+    type: 3}
   speed: 0.01
-  _endPoint: {fileID: 40396076161063875, guid: f46e6fd8f740c0f4abcdc59dcc665db4, type: 3}
 --- !u!114 &-8284634114349342640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,7 +268,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0.5149651, b: 0.27735847, a: 1}
+      key0: {r: 1, g: 1, b: 1, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 0}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
